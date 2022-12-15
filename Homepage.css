@@ -1,0 +1,45 @@
+
+    .nav{
+        /* background-color:yellow; */
+        overflow: hidden;
+    }
+    /* .nav a img{
+        text-align: right;
+    }
+    <img src="https://www.shutterstock.com/image-vector/logo-monkey-sunglasses-600w-361745693.jpg" alt=""> */
+
+    .nav a{
+        float: left;
+        color: green;
+        text-align: center;
+        padding: 30px 20px;
+        text-decoration: none;
+        font-size: 20px;
+
+    }
+
+    .nav a.Account{
+        float: right;
+        /* background-color: green; */
+    }
+    .nav a.tab{
+        text-align: justify;
+    }
+    .part1{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+        background-color:rgb(178, 236, 178);
+    }
+    .part1 img{
+        max-width: 800px;
+        max-height: 600px;
+        /* background-color: red; */
+    }
+
+    .part2{
+        text-align: center;
+    }
+    .part2 button{
+        gap: 25px;
+    }

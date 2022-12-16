@@ -27,8 +27,9 @@ input, button{
     position: relative;
     width:600px;
     height: 650px;
-    background: #fff;
+    /* background: #fff; */
     border-radius: 40px;
+    background: lightyellow;
 }
 
 .form{

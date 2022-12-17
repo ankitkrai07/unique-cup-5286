@@ -4,6 +4,7 @@
         overflow: hidden;
         height: 75px;
         border: b;
+        position: relative;
     }
     /* .nav a img{
         text-align: right;
@@ -91,8 +92,12 @@
 
     .part2{
         text-align: center;
-        margin-top: 100px;
+        padding-top: 20px;
+        margin-top: 50px;
         justify-content: center;
+        background-color: aliceblue;
+        /* width: 80%; */
+        /* width: 400px; */
     }
     .part2 button{
         margin: 30px;
@@ -120,33 +125,137 @@
         overflow: hidden;
         height: 200px;
         max-width: 50vh;
+
         -webkit-box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
         box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+
+    }
+    .grid>div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* width: 100%; */
     }
     .box1{
         background-color: #ffffff;
         border-radius: 10px 10px 10px 10px;
         overflow: hidden;
         height: 400px;
-        max-width: 100vh;
+        max-width: 150vh;
+
         -webkit-box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
         box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+        
     }
 
     .box{
         margin: 20px;
     }
+
+    .box:hover{
+        -webkit-transform: scale(1);
+	    transform: scale(1.1);
+        cursor: pointer;
+    }
     .grid{
         min-height: 100%;
-        display: grid;
-       grid-template-columns: repeat(3,1fr);
-        flex-direction: row;
-        width: 75%;
-        justify-content: center;
-        text-align: center;
+        display: flex;
+       /* grid-template-columns: repeat(2,1fr); */
+        /* flex-direction: row; */
+        /* width: 75%; */
+       
 
     }
 
-    .grid>div{
-        flex-basis: calc(33.333%-40px);
+    /* .grid>div{
+        flex-basis: calc(50%-40px);
+    } */
+
+    .middle{
+        margin-top: 100px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .middle img{
+        width:280px;
+    }
+    .part3{
+        display: flex;
+        text-align: center;
+        margin: 40px;
+        /* width: 80%; */
+        justify-content: center;
+        gap: 40px;
+
+
+    }
+
+    .part3>div{
+        /* border: solid black; */
+        width: 300px;
+        height: 450px;
+        /* background-color: #ffffff; */
+        border-radius: 10px 10px 10px 10px;
+        overflow: hidden
+         -webkit-box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+        box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+        /* text-align: center; */
+    }
+
+    .basic button{
+        background-color: lightgreen;
+        width: 200px;
+        height: 50px;
+        border-radius: 5px;
+    }
+
+    .individual button{
+           background-color: blueviolet;
+        width: 200px;
+        height: 50px;
+        border-radius: 5px;
+    }
+    .team button{
+        background-color:violet;
+        width: 200px;
+        height: 50px;
+        border-radius: 5px;
+    }
+    .part3 button:hover{
+        cursor: pointer;
+    }
+
+    .part3 p{
+        font-size: 24px;
+    }
+    .basic{
+        background: lightblue;
+    }
+    .individual{
+        background: lemonchiffon;
+    }
+    .team{
+        background: lightcyan;
+    }
+
+    .part4{
+        height: 400px;
+        /* border: solid black; */
+        text-align: center;
+        background: lightskyblue;
+        padding-top: 100px;
+        word-wrap: break-word;
+        font-size: 22px;
+    }
+    .part4 button{
+        width: 200px;
+        height: 60px;
+        font-weight: 800;
+        border-radius: 5px;
+        background-color:white
+    }
+
+    .part4 button:hover{
+        cursor: pointer;
+        background: #ffffff;
     }

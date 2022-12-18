@@ -117,6 +117,7 @@
     .box1 img{
         height: 300px;
         width: 300px;
+        background: none;
     }
 
      .box2, .box3, .box4, .box5{
@@ -128,7 +129,26 @@
 
         -webkit-box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
         box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+    }
 
+    .box2 p h5, .box3 p h5, .box4 p h5, .box5 p h5{
+        padding-top: 200px;
+    }
+
+
+    .box2{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLG-DuFtJa1FNOLQAd8Yt6nEdsEntlO7tL_giZu1lgQsOhex-Zmvnq2MZ4mcMDyKgRDz0&usqp=CAU");
+    }
+    .box3{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp3Glnx69YMCxQiy_72dNc6rcpn6k-XAQ3iw&usqp=CAU");
+
+    }
+    .box4{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMUziyDkag9UeLCZCZLO3snWcHXhlyx2YUhQ&usqp=CAU");
+    }
+    .box5{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9VdqM0h7M--Sht2Gl9vj7uOPPtzSDQ9Rehg&usqp=CAU");
+        color: #ffffff;
     }
     .grid>div{
         display: grid;
@@ -141,6 +161,7 @@
         overflow: hidden;
         height: 400px;
         max-width: 150vh;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgwXUIsFhXfjJil0r3DAF8w4GsXFFPiuypQA&usqp=CAU");
 
         -webkit-box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
         box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
